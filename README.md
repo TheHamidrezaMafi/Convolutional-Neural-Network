@@ -1,5 +1,12 @@
 # Convolutional-Neural-Network
-VGG-19 trained on 100 Sports Image Classification and U-Net trained on Weizmann Horse Database
+◦ Trained a VGG19-based deep neural network (SportVGG) on a 100-class sports image dataset, achieving
+86.4% test accuracy using a two-stage fine-tuning approach with Grad-CAM interpretability.
+
+◦ Designed and optimized a U-Net model for semantic segmentation of horse images (Weizmann dataset),
+achieving a best IoU of 0.8023 with experiments on Dice, BCE, and Focal losses.
+
+◦ Implemented Seg-Grad-CAM to visualize feature importance across U-Net decoder stages, offering detailed
+insight into model attention and decision pathways.
 
 Datasets:
 100 Sports Image Classification
